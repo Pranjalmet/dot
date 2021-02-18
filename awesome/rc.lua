@@ -418,17 +418,23 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- }}}
 --
 --
+
 -- Gaps
 beautiful.useless_gap = 8
 
 -- Autostart
-awful.spawn.with_shell("picom")
+awful.spawn.with_shell("picom --config  /home/pranjal/.config/picom/picom.conf")
 awful.spawn.with_shell("dropbox")
 awful.spawn.with_shell("feh --bg-fill --randomize /home/pranjal/Walls")
 awful.spawn.with_shell("kmix")
 awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("/home/pranjal/.config/polybar/launch.sh")
 
-
+--  ____                   _       _                _   
+-- |  _ \ _ __ __ _ _ __  (_) __ _| |_ __ ___   ___| |_     
+-- | |_) | '__/ _` | '_ \ | |/ _` | | '_ ` _ \ / _ \ __|    Pranjal (Pmet)  
+-- |  __/| | | (_| | | | || | (_| | | | | | | |  __/ |_     https://github.com/Pranjalmet/                        
+-- |_|   |_|  \__,_|_| |_|/ |\__,_|_|_| |_| |_|\___|\__|
+--                      |__/                            
 
 
