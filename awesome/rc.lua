@@ -423,7 +423,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 beautiful.useless_gap = 8
 
 -- Autostart
-awful.spawn.with_shell("picom --config  /home/pranjal/.config/picom/picom.conf")
+awful.spawn.with_shell("picom --config  /home/pranjal/.config/picom/picom.conf --experimental-backends")
 awful.spawn.with_shell("dropbox")
 awful.spawn.with_shell("feh --bg-fill --randomize /home/pranjal/Walls")
 awful.spawn.with_shell("kmix")

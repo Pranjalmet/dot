@@ -1,22 +1,25 @@
 #Window Customization
 window:
   dimensions:
-    columns: 140
-    lines: 38
+    columns: 0
+    lines: 0
   
   position:
       x: 0
       y: 0
   padding:
-      x: 25
-      y: 25
-
-  decorations: none
+      x: 20
+      y: 20
+  
+  dynamic_padding: true 
+  decorations: full
+  
   scrolling:
       history: 10000
       multiplier: 3
-  background_opacity: .8
-  window.dynami_title: true
+  
+background_opacity: .8
+window.dynami_title: true
 
   #Font Customization  
 font:
