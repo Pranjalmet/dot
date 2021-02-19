@@ -1,0 +1,6 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ theme: "~/.config/rofi/User Themes/onedark";
+ font: "hack 10";
+ combi-modi: "window,drun,ssh";
+ }

@@ -19,6 +19,18 @@ local hotkeys_popup = require("awful.hotkeys_popup")
 -- when client with a matching name is opened:
 require("awful.hotkeys_popup.keys")
 
+--My Custom Widgets
+local battery_widget = require("awesome-wm-widgets.battery-widget.battery")
+local brightnessarc_widget = require("awesome-wm-widgets.brightnessarc-widget.brightnessarc")
+local calendar_widget = require("awesome-wm-widgets.calendar-widget.calendar")
+local volumearc_widget = require("awesome-wm-widgets.volumearc-widget.volumearc")
+local spotify_widget = require("awesome-wm-widgets.spotify-widget.spotify")
+--local battery = require("~/.config/awesome/widget/battery.lua")
+--local bluetooth = require("~/.config/awesome/widget/bluetooth.lua")
+--local volume = require("~/.config/awesome/widget/volume.lua")
+
+
+
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
 -- another config (This code will only ever execute for the fallback config)
@@ -427,6 +439,7 @@ awful.spawn.with_shell("picom --config  /home/pranjal/.config/picom/picom.conf -
 awful.spawn.with_shell("dropbox")
 awful.spawn.with_shell("feh --bg-fill --randomize /home/pranjal/Walls")
 awful.spawn.with_shell("kmix")
+awful.spawn.with_shell("/home/pranjal/.config/awesome/volume.lua")
 awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("/home/pranjal/.config/polybar/launch.sh")
 
