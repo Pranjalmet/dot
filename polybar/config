@@ -54,9 +54,9 @@ module-margin-right = 3
 font-0 = SF Pro Text:size=10;0 
 font-1 = FontAwesome:size=11;0
 
-modules-left = powermenu pulseaudio bspwm i3
+modules-left = powermenu bspwm i3
 modules-center = spotify
-modules-right = xbacklight date battery 
+modules-right = pulseaudio xbacklight date battery 
 
 tray-position = left 
 tray-padding = 2
