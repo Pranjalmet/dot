@@ -1,3 +1,14 @@
+env:
+  # TERM variable
+  #
+  # This value is used to set the `$TERM` environment variable for
+  # each instance of Alacritty. If it is not present, alacritty will
+  # check the local terminfo database and use `alacritty` if it is
+  # available, otherwise `xterm-256color` is used.
+  TERM: xterm-256color
+
+
+  
 #Window Customization
 window:
   dimensions:
@@ -8,8 +19,8 @@ window:
       x: 0
       y: 0
   padding:
-      x: 20
-      y: 20
+      x: 6
+      y: 6
   
   dynamic_padding: true 
   decorations: full

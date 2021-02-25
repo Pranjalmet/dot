@@ -442,12 +442,14 @@ awful.spawn.with_shell("kmix")
 awful.spawn.with_shell("/home/pranjal/.config/awesome/volume.lua")
 awful.spawn.with_shell("nm-applet")
 awful.spawn.with_shell("/home/pranjal/.config/polybar/launch.sh")
+awful.spawn.with_shell("/usr/share/applications/spotify-adblock.desktop")
+awful.spawn.with_shell("/usr/share/applications/spotify.desktop")
 
---  ____                   _       _                _   
--- |  _ \ _ __ __ _ _ __  (_) __ _| |     _ __ ___   ___| |_     
--- | |_) | '__/ _` | '_ \ | |/ _` | |      '_ ` _ \ / _ \ __|    Pranjal (Pmet)  
--- |  __/| | | (_| | | | || | (_| | |    | | | | | |  __/ |_     https://github.com/Pranjalmet/                        
--- |_|   |_|  \__,_|_| |_|/ |\__,_|_|    |_| |_| |_|\___|\__|
+--  ____                   _       _                      _   
+-- |  _ \ _ __ __ _ _ __  (_) __ _| |      _ __ ___   ___| |_     
+-- | |_) | '__/ _` | '_ \ | |/ _` | | ____  '_ ` _ \ / _ \ __|    Pranjal (Pmet)  
+-- |  __/| | | (_| | | | || | (_| | |/____| | | | | |  __/ |_     https://github.com/Pranjalmet/                        
+-- |_|   |_|  \__,_|_| |_|/ |\__,_|_|     |_| |_| |_|\___|\__|
 --                      |__/                            
 
 
