@@ -431,6 +431,22 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 --
 --
 
+
+--///////////////////////////////// Customs \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+--Brightness
+--    awful.key({},'XF86MonBrightnessUp',
+--    function()
+--       awful.spawn('xbacklight -inc 5')
+--     end,
+--     {description = '+10%', group = 'hotkeys'}),
+    
+--    awful.key({},'XF86MonBrightnessDown',
+--    function()
+--       awful.spawn('xbacklight -dec 5')
+--     end,
+--     {description = '-10%', group = 'hotkeys'}),
+
 -- Gaps
 beautiful.useless_gap = 8
 
